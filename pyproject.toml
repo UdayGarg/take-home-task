@@ -3,5 +3,29 @@ name = "take-home-task"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = []
+requires-python = "==3.10.*"
+dependencies = [
+    "aiofiles>=24.1.0",
+    "asyncio>=3.4.3",
+    "chromadb>=0.6.3",
+    "doctly>=0.1.0",
+    "faiss-cpu>=1.10.0",
+    "flask==2.3.3",
+    "langchain>=0.0.27",
+    "langchain-community>=0.3.18",
+    "langchain-core>=0.3.40",
+    "langchain-text-splitters>=0.3.6",
+    "nltk==3.8.1",
+    "numpy",
+    "openai==1.64.0",
+    "pandas>=2.2.3",
+    "psutils>=3.3.9",
+    "pymupdf==1.22.3",
+    "pypdf2>=3.0.1",
+    "python-docx==0.8.11",
+    "python-dotenv==1.0.0",
+    "scikit-learn>=1.6.1",
+    "tqdm==4.66.1",
+    "werkzeug==2.3.7",
+]
+
