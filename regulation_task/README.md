@@ -43,7 +43,6 @@ The Regulatory Compliance Document Processor is a sophisticated tool designed to
   - `/knowledge_base/` - Vector store and document storage
   - `/version_control/` - Document versioning system
   - `/web/` - Flask web application
-  - `/api/` - API interfaces
   - `/cache/` - Caching for embeddings and documents
   - `/data/` - Data storage for document and vector databases
   - `/logs/` - Application logs
