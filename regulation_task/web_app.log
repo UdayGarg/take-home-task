@@ -8907,3 +8907,14 @@
 2025-03-01 10:07:03,409 - werkzeug - WARNING -  * Debugger is active!
 2025-03-01 10:07:03,420 - werkzeug - INFO -  * Debugger PIN: 108-202-971
 2025-03-01 10:07:11,676 - werkzeug - INFO - 192.168.1.59 - - [01/Mar/2025 10:07:11] "GET / HTTP/1.1" 200 -
+2025-03-02 14:44:21,806 - regulatory_compliance_processor.knowledge_base.vector_store_factory - INFO - Creating LangChain vector store implementation
+2025-03-02 14:44:21,806 - regulatory_compliance_processor.knowledge_base.embeddings - INFO - Embedding cache initialized at /Users/uday/Desktop/Desktop-Udays_MacBook_Pro/MSAI/interface/take-home-task/regulation_task/regulatory_compliance_processor/cache/embeddings
+2025-03-02 14:44:21,806 - regulatory_compliance_processor.knowledge_base.embeddings - INFO - Cache stats: 28676 hits, 6179 misses
+2025-03-02 14:44:22,031 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-02 14:44:22,255 - regulatory_compliance_processor.knowledge_base.langchain_vector_store - INFO - Loaded existing Chroma vector store with 4101 documents
+2025-03-02 14:44:22,280 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5056
+ * Running on http://192.168.1.59:5056
+2025-03-02 14:44:22,280 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-02 14:44:25,650 - werkzeug - INFO - 192.168.1.59 - - [02/Mar/2025 14:44:25] "GET / HTTP/1.1" 200 -

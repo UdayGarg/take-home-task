@@ -25,7 +25,7 @@ from ..version_control.version_tracker import VersionTracker
 from ..config import USE_RULE_BASED_EXTRACTION, USE_HYBRID_EXTRACTION, EMBEDDING_BATCH_SIZE
 
 # Set up logging
-log_file = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "web_app.log")
+log_file = os.path.join(os.path.dirname(os.path.dirname(__file__)), "logs", "web_app.log")
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -1050,4 +1050,11 @@ def run_app(host='0.0.0.0', port=5052, debug=False):
     app.run(host=host, port=port, debug=debug)
 
 if __name__ == '__main__':
-    run_app(debug=True)
+    import argparse
+    parser = argparse.ArgumentParser(description='Run the Regulatory Compliance Processor Web App')
+    parser.add_argument('--port', type=int, default=5052, help='Port number to run the app on (default: 5052)')
+    parser.add_argument('--host', type=str, default='0.0.0.0', help='Host address (default: 0.0.0.0)')
+    parser.add_argument('--debug', action='store_true', help='Enable debug mode')
+    args = parser.parse_args()
+    
+    run_app(host=args.host, port=args.port, debug=args.debug)
