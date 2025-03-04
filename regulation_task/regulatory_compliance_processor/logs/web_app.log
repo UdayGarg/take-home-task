@@ -26,3 +26,27 @@
 2025-03-02 15:20:38,813 - werkzeug - INFO - 192.168.1.59 - - [02/Mar/2025 15:20:38] "GET /all_documents HTTP/1.1" 200 -
 2025-03-02 15:20:51,139 - werkzeug - INFO - 192.168.1.59 - - [02/Mar/2025 15:20:51] "GET /all_documents HTTP/1.1" 200 -
 2025-03-02 15:20:55,951 - werkzeug - INFO - 192.168.1.59 - - [02/Mar/2025 15:20:55] "GET /api/documents HTTP/1.1" 200 -
+2025-03-03 22:00:05,501 - regulation_task.regulatory_compliance_processor.knowledge_base.vector_store_factory - INFO - Creating LangChain vector store implementation
+2025-03-03 22:00:05,501 - regulation_task.regulatory_compliance_processor.knowledge_base.embeddings - INFO - Embedding cache initialized at /Users/uday/Desktop/Desktop-Udays_MacBook_Pro/MSAI/interface/take-home-task/regulation_task/regulatory_compliance_processor/cache/embeddings
+2025-03-03 22:00:05,501 - regulation_task.regulatory_compliance_processor.knowledge_base.embeddings - INFO - Cache stats: 28676 hits, 6182 misses
+2025-03-03 22:00:05,954 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-03 22:00:06,403 - regulation_task.regulatory_compliance_processor.knowledge_base.langchain_vector_store - INFO - Loaded existing Chroma vector store with 4101 documents
+2025-03-03 22:00:21,899 - regulation_task.regulatory_compliance_processor.knowledge_base.vector_store_factory - INFO - Creating LangChain vector store implementation
+2025-03-03 22:00:21,899 - regulation_task.regulatory_compliance_processor.knowledge_base.embeddings - INFO - Embedding cache initialized at /Users/uday/Desktop/Desktop-Udays_MacBook_Pro/MSAI/interface/take-home-task/regulation_task/regulatory_compliance_processor/cache/embeddings
+2025-03-03 22:00:21,899 - regulation_task.regulatory_compliance_processor.knowledge_base.embeddings - INFO - Cache stats: 28676 hits, 6182 misses
+2025-03-03 22:00:22,072 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-03 22:00:22,307 - regulation_task.regulatory_compliance_processor.knowledge_base.langchain_vector_store - INFO - Loaded existing Chroma vector store with 4101 documents
+2025-03-03 22:00:27,079 - regulation_task.regulatory_compliance_processor.knowledge_base.vector_store_factory - INFO - Creating LangChain vector store implementation
+2025-03-03 22:00:27,080 - regulation_task.regulatory_compliance_processor.knowledge_base.embeddings - INFO - Embedding cache initialized at /Users/uday/Desktop/Desktop-Udays_MacBook_Pro/MSAI/interface/take-home-task/regulation_task/regulatory_compliance_processor/cache/embeddings
+2025-03-03 22:00:27,080 - regulation_task.regulatory_compliance_processor.knowledge_base.embeddings - INFO - Cache stats: 28676 hits, 6182 misses
+2025-03-03 22:00:27,235 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-03 22:00:27,449 - regulation_task.regulatory_compliance_processor.knowledge_base.langchain_vector_store - INFO - Loaded existing Chroma vector store with 4101 documents
+2025-03-03 22:00:27,473 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.59:5001
+2025-03-03 22:00:27,473 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 22:00:36,911 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 22:00:36] "GET / HTTP/1.1" 200 -
+2025-03-03 22:00:37,177 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 22:00:37] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-03-03 22:00:37,180 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 22:00:37] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-03-03 22:00:37,216 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 22:00:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
