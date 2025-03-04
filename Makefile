@@ -12,7 +12,10 @@ build-backend:
 	docker build -t flask-app -f regulation_task/Dockerfile .
 
 run-backend:
-	docker run -p 5001:5001 --name flask-app-container flask-app
+	docker run -p 5001:5001 --name flask-app-container \
+		-e OPENAI_API_KEY="$(OPENAI_API_KEY)" \
+		flask-app
+
 
 # Stop Running Containers
 stop:
