@@ -68,3 +68,9 @@ docker-compose.override.yml
 # Ignore files generated from Black autoformatter
 black.log
 
+# Node.js
+node_modules/
+
+# Cache directories
+**/cache/embeddings/
+
